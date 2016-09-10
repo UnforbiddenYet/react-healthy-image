@@ -21,7 +21,9 @@
   "license": "ISC",
   "main": "dist/index.min.js",
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "README.md"
   ],
   "repository": {
     "type": "git",
