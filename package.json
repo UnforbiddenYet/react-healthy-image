@@ -3,12 +3,39 @@
   "version": "1.0.0",
   "author": {
     "name": "Dmytro Lvivsky",
-    "email": "hello@lvivsky.me"
+    "email": "hello@lvivsky.me",
+    "url": "http://lvivsky.me/"
   },
   "bugs": {
     "url": "https://github.com/unforbiddenyet/react-healthy-image/issues"
   },
+  "dependencies": {},
   "description": "React lightweight component that solves the problem of broken image removal. Zero dependencies(except React, for sure 🤓)",
-  "main": "index.js",
-  "license": "ISC"
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "broken image",
+    "replace image"
+  ],
+  "license": "ISC",
+  "main": "dist/index.min.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/unforbiddenyet/react-healthy-image.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress --profile --colors",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.11.1",
+    "webpack": "^1.13.2"
+  }
 }
