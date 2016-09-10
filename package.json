@@ -1,0 +1,14 @@
+{
+  "name": "react-healthy-image",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dmytro Lvivsky",
+    "email": "hello@lvivsky.me"
+  },
+  "bugs": {
+    "url": "https://github.com/unforbiddenyet/react-healthy-image/issues"
+  },
+  "description": "React lightweight component that solves the problem of broken image removal. Zero dependencies(except React, for sure 🤓)",
+  "main": "index.js",
+  "license": "ISC"
+}
